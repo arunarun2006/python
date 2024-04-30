@@ -19,3 +19,24 @@ def rectangle(length,breath):
 
     area=length*breath
     return area
+
+def square(length):
+    '''
+    To find the area of the circle
+    square(length)
+    length-enter the length of the square
+    '''
+
+    area=length*length
+    return area
+
+def triangle(base,height):
+    '''
+    To find the area of the triangle
+    triangle(base,height)
+    base-enter the base of the triangle
+    height-enter the height of the triangle
+    '''
+
+    area=1/2*base*height
+    return area
